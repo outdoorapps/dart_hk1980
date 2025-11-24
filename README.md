@@ -42,4 +42,4 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  dart_hk1980: ^1.0.0
+  dart_hk1980: ^1.0.0+2
