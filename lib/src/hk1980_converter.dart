@@ -38,13 +38,13 @@ class Hk1980Converter {
     required double easting,
     required double northing,
   }) {
-    final hk80 = hk1980GridToHk80Geo(northing: northing, easting: easting);
+    final hk80 = _hk1980GridToHk80Geo(northing: northing, easting: easting);
     final wgs84 = _hk80GeoToWgs84Geo(latDeg: hk80[0], lonDeg: hk80[1]);
     return wgs84; // [lat, lon]
   }
 
   /// Step 1: HK1980 Grid (N,E) → HK80 geographic (φ, λ in degrees).
-  static List<double> hk1980GridToHk80Geo({
+  static List<double> _hk1980GridToHk80Geo({
     required double northing,
     required double easting,
   }) {

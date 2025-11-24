@@ -1,3 +1,6 @@
+## 1.0.2
+- Improved package encapsulation.
+
 ## 1.0.1
 - Removed duplicate import paths from the public API.
 
