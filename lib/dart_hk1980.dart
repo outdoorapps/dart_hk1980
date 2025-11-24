@@ -6,4 +6,5 @@
 ///
 /// final wgs = Hk1980Converter.toWgs84(easting: 838901.9, northing: 832049.1);
 library;
+
 export 'hk1980_converter.dart';
