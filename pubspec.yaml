@@ -1,0 +1,14 @@
+name: dart_hk1980
+description: HK1980 (EPSG:2326) to WGS84 (EPSG:4326) coordinate transformations for Dart.
+version: 1.0.0
+repository: https://github.com/outdoorapps/dart_hk1980
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  vector_math: ^2.2.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
