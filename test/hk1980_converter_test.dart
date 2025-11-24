@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'package:dart_hk1980/hk1980_converter.dart';
+import 'package:dart_hk1980/src/hk1980_converter.dart';
 import 'package:test/test.dart';
 import 'package:vector_math/vector_math.dart';
 
