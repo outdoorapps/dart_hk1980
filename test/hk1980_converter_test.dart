@@ -21,7 +21,7 @@ const testCases2326to4326 = {
 const toleranceMeters = 2.0;
 
 void main() {
-  test('HK1980 → WGS84 converter within 2m tolerance', () {
+  test('HK1980 → WGS84 converter within 2 meters accuracy', () {
     testCases2326to4326.forEach((en, expected) {
       final result = Hk1980Converter.toWgs84(easting: en[0], northing: en[1]);
 
